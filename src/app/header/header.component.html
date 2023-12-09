@@ -1,0 +1,18 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+            </i>
+            <strong style="font-size: 30px;">E-Commerce</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchProducts" (keyup)="search($event)"
+                    placeholder="search products">
+            </div>
+        </div>
+        <button mat-raised-button color="accent" style="font-size: 10px; margin-right: 10px;" class="badge bg-danger"
+            routerLink="cart">
+            <h5>Yours Cart</h5>
+        </button>
+    </div>
+
+</header>

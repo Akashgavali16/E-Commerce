@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.parent {
+  padding-top: 50px;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+  background-color: rgb(175, 231, 231);
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
